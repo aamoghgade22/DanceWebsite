@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Mochiy+Pop+One&family=Oswald&family=Permanent+Marker&display=swap');
+.container{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+}
+h1{
+    text-align: center;
+    /* height: 100px; */
+    margin: 12px;
+    
+}
+.myForm{
+    display:flex ;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    text-align: center;    
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 20px;
+    outline: none;
+}
+.btn{
+    padding: 12px;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: gold;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: black;
+    background-color: gold;
+}

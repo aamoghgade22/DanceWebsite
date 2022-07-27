@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Amogh Dance Academy
+    style
+      include ../static/style.css
+  body 
+    nav#navbar 
+      ul 
+        div#logo 
+            img(src="/static/i1.webp")
+            | ADA 
+        li #[a(href="/") Home ]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class-info]
+        li #[a(href="/") Contact-Us]
+
+    section#introSection 
+      div WELCOME to Amogh's Dance Academy
+      div.small LIVE-LEARN-DANCE-REPEAT
+
+    section#missionSection 
+      h2 Our Mission 
+      div.card 
+        h3 Dance perfection
+        div.card-box 
+            div.card-img
+                img(src="/static/i1.webp")
+            div.card-content
+                p This is the best dance academy
+      div.card 
+        h3 Dance the way you like
+        div.card-box 
+            div.card-img2
+                img(src="/static/i3.jpg")
+            div.card-content
+                p This is the best dance academy2
+      div.card 
+        h3 Expert teaching
+        div.card-box 
+            div.card-img
+                img(src="/static/i4.png")
+            div.card-content
+                p This is the best dance academy
+
+    section#sponsorsSection 
+      h2 Our sponsors
+      div#sponsors
+        img(src="/static/apple.webp", alt="Sponsor Image", class="spImage")
+        img(src="/static/face.webp", alt="Sponsor Image", class="spImage")
+        img(src="/static/insta.webp", alt="Sponsor Image", class="spImage")
+        img(src="/static/titter.webp", alt="Sponsor Image", class="spImage")
+
+    
+    footer#footer 
+      | Copyright © 2022 AmoghDanceAcademy.com | All rights reserved
+    script 
+      include ../static/index.js
